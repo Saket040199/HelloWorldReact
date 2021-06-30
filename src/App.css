@@ -7,7 +7,13 @@ h1{
 }
 
 .menu{
-display: flex;
-justify-content: center;
-width: 100%;
+display: block;
+margin: 0 auto;
+width: 25%;
+}
+
+img{
+  display: block;
+  width: 65%;
+  cursor: pointer;
 }
