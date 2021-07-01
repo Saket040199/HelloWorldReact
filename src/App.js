@@ -14,14 +14,13 @@ import logo from './asset/bl.logo.png';
 // }
 
 class App extends React.Component{
-  url='http://bridgelabz.com/'
+  url = "https://www.bridgelabz.com/";
   constructor(){
     super()
     this.state = { 
       title: 'Hello from BridgeLabz'
     }
   }
-
   onClick = ($event) => {
     window.open(this.url,"_blank");
   }
@@ -29,7 +28,7 @@ class App extends React.Component{
     return(
       <div className = 'menu'>
         <h1>{this.state.title}</h1>
-        <img onClick={this.onClick} src={logo} alt="Invalid pic" />
+        <img  src={logo} onClick={this.onClick} alt="Invalid pic" />
       </div>
     )
   }

@@ -1,26 +1,12 @@
 
-
-
 h1{
   text-align: center;
   font-size: xx-large;
 }
 
-<<<<<<< HEAD
-.menu{
-display: block;
-margin: 0 auto;
-width: 25%;
-}
-
-img{
-  display: block;
-  width: 65%;
-  cursor: pointer;
-=======
 img{
   display: block;
   margin: 0% auto;
-  width: 25%;
->>>>>>> UC1
+  width: 20%;
+  cursor: pointer;
 }
