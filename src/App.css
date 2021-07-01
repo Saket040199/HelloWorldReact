@@ -6,6 +6,7 @@ h1{
   font-size: xx-large;
 }
 
+<<<<<<< HEAD
 .menu{
 display: block;
 margin: 0 auto;
@@ -16,4 +17,10 @@ img{
   display: block;
   width: 65%;
   cursor: pointer;
+=======
+img{
+  display: block;
+  margin: 0% auto;
+  width: 25%;
+>>>>>>> UC1
 }
