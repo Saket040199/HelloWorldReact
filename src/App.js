@@ -1,7 +1,7 @@
 
 import './App.css';
 import React from 'react';
-import logo from './asset/addresspic.png';
+import logo from './asset/bl.logo.png';
 
 // class App extends React.Component{
 //   render(){
