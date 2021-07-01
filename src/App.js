@@ -18,18 +18,27 @@ class App extends React.Component{
   constructor(){
     super()
     this.state = { 
-      title: 'Hello from BridgeLabz'
+      userName: ''
     }
   }
   onClick = ($event) => {
     window.open(this.url,"_blank");
   }
+
+  onNameChange = ($event) => {
+    this.setState({ userName: $event.target.value})
+  }
   render(){
     return(
+      <>
       <div className = 'menu'>
-        <h1>{this.state.title}</h1>
+        <h1>Hello {this.state.userName} from BridgeLabz</h1>
         <img  src={logo} onClick={this.onClick} alt="Invalid pic" />
       </div>
+      <div>
+        <input onChange = {this.onNameChange} />
+      </div>
+      </>
     )
   }
 }
