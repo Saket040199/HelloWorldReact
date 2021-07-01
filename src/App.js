@@ -37,14 +37,29 @@ class App extends React.Component{
   }
   render(){
     return(
+      <div className="app-main">
+      <div className ="main">
       <div>
-      <div className = 'menu'>
         <h1>Hello {this.state.userName} from BridgeLabz</h1>
         <img  src={logo} onClick={this.onClick} alt="Invalid pic" />
       </div>
-      <div className='name'>
+      <div className='text-box'>
         <input onChange = {this.onNameChange} />
         <span className="error-output">{this.state.nameError}</span>
+      </div>
+      <div>
+        At BrideLabz we're a community of
+        <ul>
+          <li> Technologists</li>
+          <li> Thinkers</li>
+          <li> Builders</li>
+        </ul>
+        Working Together.......
+        <br />
+        <br />
+        To know ,visit <a href='https://www.bridgelabz.com/' rel="noreferrer" target="_blank">BrideLabz</a>
+        <br /> i.e <b>Employebility to all</b>
+        </div>
       </div>
       </div>
     )
